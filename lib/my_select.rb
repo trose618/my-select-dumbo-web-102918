@@ -8,4 +8,5 @@ def my_select(collection)
   select_group << collection[index] if current == true
   index += 1 
  end
+ select_group
 end
